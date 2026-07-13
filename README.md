@@ -6,7 +6,7 @@ Solucao reutilizavel para analisar testes A/B de cashback, gerar relatorios exec
 
 O programa le arquivos CSV com dados de testes A/B de cashback, calcula metricas por variante (compradores, GMV, comissao, cashback, contribuicao liquida), compara cada variante contra o baseline usando dias pareados, e recomenda a melhor variante para escalar com base na **contribuicao liquida diaria** (`comissao - cashback`).
 
-Tudo e feito com a biblioteca padrao do Python — sem dependencias externas para o uso basico.
+Tudo e feito com a biblioteca padrao do Python  sem dependencias externas para o uso basico.
 
 Voce pode usar de **dois jeitos**:
 
