@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Relatorio consolidado dos testes A/B</title>
+  <style>
+    body { margin: 0; background: #f6f7f9; color: #202124; font: 14px/1.5 Arial, Helvetica, sans-serif; }
+    main { max-width: 1080px; margin: 0 auto; padding: 32px 24px 56px; }
+    header, section { background: #fff; border: 1px solid #dfe3e8; border-radius: 8px; padding: 24px; margin-bottom: 18px; }
+    h1, h2 { margin: 0 0 12px; line-height: 1.2; }
+    h1 { font-size: 28px; }
+    h2 { font-size: 18px; }
+    p { color: #5f6368; }
+    table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 13px; }
+    th, td { border-bottom: 1px solid #dfe3e8; padding: 10px 8px; text-align: left; vertical-align: top; }
+    th { color: #5f6368; background: #fafbfc; }
+    li { margin-bottom: 8px; }
+    @media (max-width: 820px) { main { padding: 18px 12px 32px; } section { overflow-x: auto; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Relatorio consolidado dos testes A/B</h1>
+      <p>Resumo executivo das decisoes de escala para os datasets analisados.</p>
+    </header>
+    <section>
+      <h2>Resumo consolidado</h2>
+      <table>
+        <thead>
+          <tr><th>Parceiro</th><th>Periodo</th><th>Vencedor</th><th>Decisao</th><th>Confianca</th><th>Liquido vencedor</th><th>Cashback/GMV</th></tr>
+        </thead>
+        <tbody><tr><td>Parceiro A</td><td>2011-01-01 a 2011-04-02</td><td>Grupo 1</td><td>Escalar Grupo 1 para 100% do trafego.</td><td>alta</td><td>R$ 404.711,00</td><td>4,16%</td></tr><tr><td>Parceiro B</td><td>2011-05-01 a 2011-06-30</td><td>Grupo 1</td><td>Escalar Grupo 1 para 100% do trafego.</td><td>alta</td><td>R$ 286.570,00</td><td>4,00%</td></tr><tr><td>Parceiro C</td><td>2011-07-01 a 2011-08-14</td><td>Grupo 1</td><td>Escalar Grupo 1 para 100% do trafego.</td><td>media</td><td>R$ 34.769,00</td><td>5,00%</td></tr></tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Resumo das decisoes</h2>
+      <ul><li><strong>Parceiro A:</strong> Escalar Grupo 1 para 100% do trafego. Grupo 1 teve a maior contribuicao liquida diaria. As demais variantes aumentaram o custo de cashback sem compensar em margem.</li><li><strong>Parceiro B:</strong> Escalar Grupo 1 para 100% do trafego. Grupo 1 teve a maior contribuicao liquida diaria. As demais variantes aumentaram o custo de cashback sem compensar em margem.</li><li><strong>Parceiro C:</strong> Escalar Grupo 1 para 100% do trafego. Grupo 1 teve a maior contribuicao liquida diaria. As demais variantes aumentaram o custo de cashback sem compensar em margem.</li></ul>
+    </section>
+  </main>
+</body>
+</html>

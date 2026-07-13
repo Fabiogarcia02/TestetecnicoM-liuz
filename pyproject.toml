@@ -1,0 +1,19 @@
+[project]
+name = "growth-ab-analyzer"
+version = "0.1.0"
+description = "Reusable A/B test analyzer for cashback growth experiments."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+sheets = [
+    "google-api-python-client>=2.137.0",
+    "google-auth>=2.32.0",
+]
+
+[project.scripts]
+growth-ab-analyzer = "growth_ab_analyzer.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
