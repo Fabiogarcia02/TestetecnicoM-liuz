@@ -1,4 +1,4 @@
-# Teste Tecnico eliuz
+# Teste Tecnico Meliuz
 
 Solucao reutilizavel para analisar testes A/B de cashback, gerar relatorios executivos em Markdown/HTML e registrar cada teste em uma planilha de acompanhamento (Google Sheets ou CSV local).
 
